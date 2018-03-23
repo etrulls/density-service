@@ -45,6 +45,12 @@ if __name__ == "__main__":
     else:
         raise RuntimeError('Bad input format')
 
+    # Must be 3D for this
+    if stack.ndim > 3:
+        stack = np.squeeze(stack)
+    if stack.ndim != 3:
+        raise RuntimeError("Not a 3D stack?")
+
     stack = stack.astype(np.float32) / 255.0
 
     unet_config = unet.UNetConfig(steps=2,
