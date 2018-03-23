@@ -18,3 +18,5 @@ Pre-trained models are too large to be uploaded to
 Github: they are available
 [here](http://icwww.epfl.ch/~trulls/shared/models_density.tar.gz) (just unzip the
 tarball inside this folder).
+
+![Teaser](https://raw.githubusercontent.com/etrulls/density-service/master/img/density_small.png "Teaser")
