@@ -14,9 +14,10 @@ folder. A (possibly overtuned) list of requirements is given in `reqs.txt`, for
 reference. This project corresponds to an as-of-now unpublished paper, so we
 currently provide only pre-trained models and code for testing.
 
-Pre-trained models are too large to be uploaded to
-Github: they are available
-[here](http://icwww.epfl.ch/~trulls/shared/models_density.tar.gz) (just unzip the
-tarball inside this folder).
+Pre-trained models are too large to be uploaded to Github: they are available
+[here](http://icwww.epfl.ch/~trulls/shared/models_density.tar.gz) (just unzip
+the tarball inside this folder). We provide three stacks to visualize results
+(not used for training)
+[here](http://icwww.epfl.ch/~trulls/shared/data.tar.gz).
 
 ![Teaser](https://raw.githubusercontent.com/etrulls/density-service/master/img/density_small.png "Teaser")
